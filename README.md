@@ -1,1 +1,1 @@
-# Parallel-Mergesort
+# Parallel-Mergesort-Benchmark
