@@ -5,7 +5,7 @@ This is a single/parallel mergesort benchmark for the CPU. It will mergesort a g
 Format:
 `./mergesort_benchmark number_of_threads number_of_ints_to_sort`
 
-Example:
+# Example:
 ![](mergesort_benchmark_demo.gif)
 
 Cases where it will not run:
