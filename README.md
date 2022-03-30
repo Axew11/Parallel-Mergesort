@@ -5,4 +5,4 @@ This is a single/parallel mergesort benchmark for the CPU. It will mergesort a g
 Format:
 `./mergesort_benchmark number_of_threads number_of_ints_to_sort`
 
-![](https://github.com/Axew11/Parallel-Mergesort-Benchmark/blob/main/mergesort_benchmark_demo.gif)
+![](https://github.com/Axew11/Parallel-Mergesort-Benchmark/blob/master/mergesort_benchmark_demo.gif)
