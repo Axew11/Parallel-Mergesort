@@ -5,10 +5,10 @@ This is a single/parallel mergesort benchmark for the CPU. It will mergesort a g
 Format:
 `./mergesort_benchmark number_of_threads number_of_ints_to_sort`
 
-# Example:
+# Example
 ![](mergesort_benchmark_demo.gif)
 
-Cases where it will not run:
+# Cases where it will not run
   - If you provide more threads than your hardware supports
   - If you're parallelizing with a number of integers that doesn't evenly divide with the number of threads you want
   - If you provide a number of threads that isn't a power of two
