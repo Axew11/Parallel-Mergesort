@@ -49,7 +49,11 @@ int main(int argc, char** argv) {
             int low = i * SIZE/number_of_threads;
             int high = (i+1) * SIZE/number_of_threads - 1;
             cout << "Thread " << i << ": mergesort(vec, " << low << ", " << high << ");\n";
-            threads.emplace_back(mergesort, ref(vec), i * SIZE/number_of_threads, (i+1) * SIZE/number_of_threads-1);
+            if (i == number_of_threads-1) {
+                mergesort(vec, low, high); // Let's run the last mergesort on this thread
+                break;
+            }
+            threads.emplace_back(mergesort, ref(vec), low, high);
         }
         
         for (thread &thr : threads) {
