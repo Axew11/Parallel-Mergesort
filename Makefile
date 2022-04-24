@@ -1,6 +1,6 @@
 CC = g++
 
-CFLAGS = -pthread -O3
+CFLAGS = -pthread -O1
 
 TARGET = mergesort_benchmark
 
