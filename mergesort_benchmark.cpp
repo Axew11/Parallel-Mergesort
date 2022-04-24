@@ -35,9 +35,9 @@ int main(int argc, char** argv) {
 
     srand(1);
 
-    for (int i = 0; i < SIZE; i++) vec[i] = rand() % 1'000'000 + 1;
+    for (int i = 0; i < SIZE; i++) vec[i] = rand() % 1'000'000'000 + 1;
 
-    cout << "Generating vector of " << SIZE << " random ints from 1 - 1,000,000" << endl;
+    cout << "Generating vector of " << SIZE << " random ints from 1 - 1,000,000,000" << endl;
    
     if (number_of_threads == 1) {
         cout << "mergesort(vec, " << 0 << ", " << SIZE-1 << ");\n";
